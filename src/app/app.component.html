@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <p *ngIf="taco">
+    {{ taco.text }}
+  </p>
+  
+  <form (ngSubmit)="getRandomTaco()">
+    <input type="submit" value="ge mig en taco!"/>
+    <input placeholder="{{helpText}}">
+  </form>
+
+  <app-taco-list></app-taco-list>
+  <app-beerlist></app-beerlist>
+  
+</div>
