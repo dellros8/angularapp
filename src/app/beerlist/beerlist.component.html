@@ -1,4 +1,4 @@
 <p *ngFor="let beer of beers">
-  {{beer.name}}
-  <img height="100px" src={{beer.image_url}}>
+  <app-beer [beer]="beer"></app-beer>
+  <app-beerpictures [beerpictures]="beer"></app-beerpictures>
 </p>

@@ -11,13 +11,15 @@ import { BeerlistComponent } from './beerlist/beerlist.component';
 import { BeerService } from "./beer.service";
 import { TacoService } from "./taco.service";
 import { BeerComponent } from './beer/beer.component';
+import { BeerpicturesComponent } from './beerpictures/beerpictures.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TacolistComponent,
     BeerlistComponent,
-    BeerComponent
+    BeerComponent,
+    BeerpicturesComponent
   ],
   imports: [
     BrowserModule,
